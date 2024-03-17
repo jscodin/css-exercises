@@ -51,6 +51,12 @@
   grid-column: 1 / 2;
 }
 
+
+.sidebar div {
+  display: grid;
+  place-content: center;
+}
+
 .sidebar .photo {
   background-color: white;
   color: black;

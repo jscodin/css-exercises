@@ -25,7 +25,7 @@ done The header element has two columns
 -done The `ul` inside the menu element contains another grid
 -done The `ul` inside the nav element contains another grid
 -done The sidebar element has a gap of 50px
-- The text elements in the sidebar are centered with grid
+done The text elements in the sidebar are centered with grid
 done The article element should set grid columns using `repeat` along with the `auto-fit` and `minmax` properties
 done The article columns should have a minimum value of 250px and a maximum of 1fr unit
 done The article element has a gap of 15px
