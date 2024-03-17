@@ -26,10 +26,10 @@ done The header element has two columns
 -done The `ul` inside the nav element contains another grid
 -done The sidebar element has a gap of 50px
 - The text elements in the sidebar are centered with grid
-- The article element should set grid columns using `repeat` along with the `auto-fit` and `minmax` properties
-- The article columns should have a minimum value of 250px and a maximum of 1fr unit
-- The article element has a gap of 15px
-- The card elements inside the article container have a height of 200px
+done The article element should set grid columns using `repeat` along with the `auto-fit` and `minmax` properties
+done The article columns should have a minimum value of 250px and a maximum of 1fr unit
+done The article element has a gap of 15px
+done The card elements inside the article container have a height of 200px
 done The header and footer span across both columns
 done The sidebar only spans across the first column
 done The nav and article elements only span across the second column
