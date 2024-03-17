@@ -33,14 +33,13 @@
 
 .menu ul {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .menu ul,
 .menu li {
   font-size: 16px;
   list-style-type: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   white-space: nowrap;
 }
 
@@ -71,14 +70,18 @@
 .nav {
   background-color: #FF7755;
   grid-column: 2 / 3;
-  display: grid;
 }
+
+.nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
-  display: grid;
-
+  list-style-type: none;
 }
 
 .article {
