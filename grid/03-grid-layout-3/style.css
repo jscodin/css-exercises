@@ -30,6 +30,8 @@
 .menu li {
   font-size: 16px;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
 }
 
 .sidebar {
@@ -37,6 +39,9 @@
   gap: 50px;
   grid-row: 2 / 4;
   grid-column: 1 / 2;
+  /* display: grid; */
+  /* justify-content: space-between; */
+  /* justify-items: stretch; */
 }
 
 .sidebar .photo {
